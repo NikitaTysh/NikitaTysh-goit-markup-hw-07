@@ -5,3 +5,8 @@ flex-wrap: wrap;
 margin-top: calc(-1 * var(--gap));
 margin-left: calc(-1 * var(--gap));
 }
+.card-item{
+    margin-left: var(--gap);
+    margin-top: var(--gap);
+    flex-basis: calc(100% / var(--item) - var(--gap));
+}
